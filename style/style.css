@@ -1,7 +1,7 @@
 body {
   background-color: white;
   overflow-x: hidden;
-  width: 297px;
+  width: 367px;
   
 
 }
@@ -40,7 +40,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  width: 297px;
+  width: 100%;
   background-image: linear-gradient(45deg, rgb(255, 0, 153), black);
   height: 100vh;
 }

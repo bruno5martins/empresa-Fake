@@ -4,6 +4,7 @@
        display: flex;
        flex-direction: column;
        height: auto;
+       width: 100%;
 
 }
 
@@ -31,7 +32,7 @@
 
 .produtos-main{
         margin: 2px;
-        width: 297px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -47,7 +48,7 @@
         background-color: white;
         padding: 10px;
         border: 1px solid red;
-        width: 140px;
+        width: 170px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -73,7 +74,7 @@
         letter-spacing: -3px;
 }
 
-.botao-produto a{
+.botao-produto li{
         background-image: linear-gradient(45deg , black, rgb(255,0,153));
         width: 80px;
         display: flex;
