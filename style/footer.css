@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+.ajuda-footer {
+  background-color: rgb(86, 83, 83);
+  padding: 40px;
+  padding-top: 30px;
+}
+
+ul {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-footer,
+.link-whatsapp {
+  padding: 10px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+}
+
+.link-whatsapp:active {
+  border: 1px solid black;
+  box-shadow: 0 0 1px 1px white;
+}
+
+.text-footer {
+  font-weight: 600;
+}
+
+.link-whatsapp {
+  color: #0000f1;
+}
+
+/* ajuda */
+
+.container-footer-redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.redes-footer-sociais {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.em-preve:active::before {
+  display: flex;
+  position: absolute;
+  transform: translateY(-30px);
+  content: "em preve";
+}
+
+.em-preve:hover::before {
+  display: flex;
+  position: absolute;
+  transform: translateY(-30px);
+  content: "em preve";
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.redes-footer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.em-preve,
+.perfil-footer {
+  color: rgb(86, 83, 83);
+  font-size: 30px;
+}
+
+.em-preve{
+        padding: 20px;
+        transition-duration: 0.3s;
+}
+
+.bxl-facebook-circle:hover,.bxl-twitter:hover,.bxl-instagram-alt:hover,.bxl-youtube:hover{
+        padding: 0px 0 10px 0;
+        transform: translateY(10px);
+        transition-duration: 0.5s;
+}
+
+.bxl-facebook-circle,.bxl-twitter,.bxl-instagram-alt,.bxl-youtube{
+        transition-duration: 0.4s;
+}
+
+/* redes sociais */
+
+.agencia-fake{
+        background-color: black;
+}
+
+.footer-titulo{
+        font-family: 'Rajdhani', sans-serif;
+        color: white;
+        display: flex;
+}
+
+.p{
+        color: white;
+        font-size: 20px;
+}
+
+.agencia-fake{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.footer-previa{
+        color: white;
+        
+}
