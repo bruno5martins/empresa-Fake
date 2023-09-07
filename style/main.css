@@ -32,7 +32,7 @@
 
 .produtos-main{
         margin: 2px;
-        width: 100%;
+        max-width: 767px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -48,7 +48,7 @@
         background-color: white;
         padding: 10px;
         border: 1px solid red;
-        width: 170px;
+        max-width: 140px;
         display: flex;
         flex-direction: column;
         justify-content: center;
